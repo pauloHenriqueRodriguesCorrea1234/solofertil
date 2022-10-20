@@ -1,6 +1,5 @@
-import styled from 'styled-components/react-native'
+import styled from "styled-components/native";
 
 export const View = styled.View`
-    flex: 1;
-    background-Color: #d4d8d4
+flex: 1;
 `
