@@ -3,6 +3,8 @@ import { View } from "./style";
 
 // Components
 import Login from "../Login";
+import SignUp from "../SignUp";
+import ForgotPassword from "../FotgotPassword";
 
 // Para navegação de telas
 import { NavigationContainer } from "@react-navigation/native";
@@ -23,6 +25,26 @@ export default function Home() {
               headerTransparent: true,
               headerShown: false,
             }}
+          />
+
+          <Stack.Screen
+            name="Sign up"
+            component={SignUp}
+            options={{
+              title: "",
+              headerTransparent: true,
+              headerShown: false,
+            }}
+          />
+
+          <Stack.Screen
+          name="Forgot Password"
+          component={ForgotPassword}
+          options={{
+            title: "",
+            headerTransparent: true,
+            headerShown: false,
+          }}
           />
 
         </Stack.Navigator>
