@@ -9,6 +9,7 @@ import ForgotPassword from "../FotgotPassword";
 // Para navegação de telas
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Producers from "../Producers";
 const Stack = createNativeStackNavigator();
 
 export default function Home() {
@@ -45,6 +46,11 @@ export default function Home() {
             headerTransparent: true,
             headerShown: false,
           }}
+          />
+
+          <Stack.Screen
+          name="Producers"
+          component={Producers}
           />
 
         </Stack.Navigator>

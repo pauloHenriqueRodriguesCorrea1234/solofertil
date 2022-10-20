@@ -27,9 +27,7 @@ export default function Login({ navigation }) {
           placeholder={"Informe sua senha"}
         ></TextInput>
 
-        <TouchableOpacityLogin
-          onPress={() => navigation.push("Producers Card")}
-        >
+        <TouchableOpacityLogin onPress={() => navigation.push("Producers")}>
           <Viewlogin>
             <Text>LOGIN</Text>
           </Viewlogin>
