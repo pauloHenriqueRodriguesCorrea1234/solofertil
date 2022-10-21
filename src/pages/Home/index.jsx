@@ -1,60 +1,34 @@
 // Estilização
-import { View } from "./style";
+import { View, ScrollView, TouchableOpacity } from "./style";
+
+// Dados
+import producer from "../../../data/producer.json";
 
 // Components
-import Login from "../Login";
-import SignUp from "../SignUp";
-import ForgotPassword from "../FotgotPassword";
-
-// Para navegação de telas
-import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Producers from "../Producers";
-const Stack = createNativeStackNavigator();
 
-export default function Home() {
+import { useState, useEffect } from "react";
+ 
+export default function Home({ navigation }) {
+  const [produce, setProduce] = useState([]);
+
+  useEffect(() => {
+    setProduce(producer);
+  }, []);
+
   return (
     <View>
-      <NavigationContainer>
-        <Stack.Navigator>
-          {/* Telas */}
-          <Stack.Screen
-            name="Login"
-            component={Login}
-            options={{
-              title: "",
-              headerTransparent: true,
-              headerShown: false,
-            }}
-          />
-
-          <Stack.Screen
-            name="Sign up"
-            component={SignUp}
-            options={{
-              title: "",
-              headerTransparent: true,
-              headerShown: false,
-            }}
-          />
-
-          <Stack.Screen
-          name="Forgot Password"
-          component={ForgotPassword}
-          options={{
-            title: "",
-            headerTransparent: true,
-            headerShown: false,
-          }}
-          />
-
-          <Stack.Screen
-          name="Producers"
-          component={Producers}
-          />
-
-        </Stack.Navigator>
-      </NavigationContainer>
+      {produce.length > 0 && (
+        <ScrollView>
+          {produce.map((item) => (
+            <TouchableOpacity
+              key={item.id}
+              onPress={() => navigation.push("CardFrutas", { producer: item })}>
+              <Producers nameProducers={item.nameProducers} img={item.img} />
+            </TouchableOpacity>
+          ))}
+        </ScrollView>
+      )}
     </View>
   );
 }

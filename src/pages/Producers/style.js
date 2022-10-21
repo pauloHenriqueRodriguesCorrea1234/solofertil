@@ -1,6 +1,10 @@
 import styled from "styled-components/native";
 
 export const View = styled.View`
+  flex: 1;
+`;
+
+export const ViewCard = styled.View`
   border-width: 1.1px;
   flex-direction: row;
   margin: 2% 3%;

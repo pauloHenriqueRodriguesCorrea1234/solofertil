@@ -6,10 +6,24 @@ export default function SignUp({ navigation }) {
   return (
     <ViewTudo>
       <Header />
-      <TextInput placeholder="Informe seu nome"></TextInput>
-      <TextInput placeholder="Informe seu E-mail"></TextInput>
-      <TextInput placeholder="Escolha uma senha"></TextInput>
-      <TextInput placeholder="Confirme sua senha"></TextInput>
+      <TextInput
+        placeholderTextColor="#FFF"
+        placeholder="Informe seu nome"
+      ></TextInput>
+      <TextInput
+        placeholderTextColor="#FFF"
+        placeholder="Informe seu E-mail"
+      ></TextInput>
+      <TextInput
+        placeholderTextColor="#FFF"
+        secureTextEntry={true}
+        placeholder="Escolha uma senha"
+      ></TextInput>
+      <TextInput
+        placeholderTextColor="#FFF"
+        secureTextEntry={true}
+        placeholder="Confirme sua senha"
+      ></TextInput>
 
       <TouchableOpacity onPress={() => navigation.push("Producers Card")}>
         <Text>SIGN UP</Text>

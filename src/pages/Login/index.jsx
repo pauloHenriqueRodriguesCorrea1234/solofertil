@@ -10,8 +10,9 @@ import {
   Viewlogin,
   ViewText,
   TextP,
+  Text,
+  TextForgot,
 } from "./style";
-import { Text } from "react-native";
 export default function Login({ navigation }) {
   return (
     <ViewTudo>
@@ -37,7 +38,7 @@ export default function Login({ navigation }) {
           onPress={() => navigation.push("Forgot Password")}
         >
           <ViewText>
-            <TextP>Forgot your passpoword?</TextP>
+            <TextForgot>Forgot your passpoword?</TextForgot>
           </ViewText>
         </TouchableOpacityForgotPasspoword>
 
