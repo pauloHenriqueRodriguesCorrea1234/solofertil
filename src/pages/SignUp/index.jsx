@@ -1,6 +1,6 @@
-import { ViewTudo, TextInput } from "./style";
+import { ViewTudo, TextInput, TouchableOpacity  } from "./style";
 
-import { Text, TouchableOpacity } from "react-native";
+import { Text, } from "react-native";
 import Header from "../../components/Header";
 export default function SignUp({ navigation }) {
   return (
@@ -25,7 +25,7 @@ export default function SignUp({ navigation }) {
         placeholder="Confirme sua senha"
       ></TextInput>
 
-      <TouchableOpacity onPress={() => navigation.push("Producers Card")}>
+      <TouchableOpacity onPress={() => navigation.push("Home")}>
         <Text>SIGN UP</Text>
       </TouchableOpacity>
 
