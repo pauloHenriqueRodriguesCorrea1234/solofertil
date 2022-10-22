@@ -50,17 +50,6 @@ export default function App() {
               headerShown: false,
             }}
           />
-
-          <Stack.Screen
-            name="Producers"
-            component={Producers}
-            options={{
-              title: "",
-              headerTransparent: true,
-              headerShown: false,
-            }}
-          />
-
           <Stack.Screen
             name="Home"
             component={Home}

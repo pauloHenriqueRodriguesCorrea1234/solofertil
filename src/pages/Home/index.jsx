@@ -1,8 +1,8 @@
 // Estilização
-import { ScrollView, Text, TouchableOpacity, View } from "./style";
+import { ScrollView, TouchableOpacity, View } from "./style";
 
 // Dados
-import { producer } from "../../../data/producer.json";
+import producer  from "../../../data/producer.json";
 // Components
 import Producers from "../Producers";
 // Estados
@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <View>
       <Header />
-      {produce.length && (
+      {produce.length > 0 && (
         <ScrollView>
           {produce.map((item) => (
             <TouchableOpacity key={item.id}>
