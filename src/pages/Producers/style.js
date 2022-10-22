@@ -24,3 +24,7 @@ export const Text = styled.Text`
   font-style: italic;
   padding-right: 9px;
 `;
+
+export const ScrollView = styled.ScrollView`
+  flex: 1;
+`

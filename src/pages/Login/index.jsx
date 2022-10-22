@@ -2,52 +2,42 @@
 import Header from "../../components/Header/index";
 import {
   TextInput,
-  ViewTextInput,
-  ViewTudo,
+  View,
   TouchableOpacitySignUp,
   TouchableOpacityLogin,
   TouchableOpacityForgotPasspoword,
-  Viewlogin,
-  ViewText,
-  TextP,
+  TextSignUp,
   Text,
   TextForgot,
 } from "./style";
 export default function Login({ navigation }) {
   return (
-    <ViewTudo>
+    <View>
       <Header />
-      <ViewTextInput>
-        <TextInput
-          placeholderTextColor="#FFF"
-          placeholder={"Informe seu E-mail"}
-        ></TextInput>
-        <TextInput
-          placeholderTextColor="#FFF"
-          secureTextEntry={true}
-          placeholder={"Informe sua senha"}
-        ></TextInput>
 
-        <TouchableOpacityLogin onPress={() => navigation.push("Home")}>
-          <Viewlogin>
-            <Text>LOGIN</Text>
-          </Viewlogin>
-        </TouchableOpacityLogin>
+      <TextInput
+        placeholderTextColor="#FFF"
+        placeholder={"Informe seu E-mail"}
+      ></TextInput>
+      <TextInput
+        placeholderTextColor="#FFF"
+        secureTextEntry={true}
+        placeholder={"Informe sua senha"}
+      ></TextInput>
 
-        <TouchableOpacityForgotPasspoword
-          onPress={() => navigation.push("Forgot Password")}
-        >
-          <ViewText>
-            <TextForgot>Forgot your passpoword?</TextForgot>
-          </ViewText>
-        </TouchableOpacityForgotPasspoword>
+      <TouchableOpacityLogin onPress={() => navigation.push("Home")}>
+        <Text>LOGIN</Text>
+      </TouchableOpacityLogin>
 
-        <TouchableOpacitySignUp onPress={() => navigation.push("Sign up")}>
-          <ViewText>
-            <TextP>SIGN UP</TextP>
-          </ViewText>
-        </TouchableOpacitySignUp>
-      </ViewTextInput>
-    </ViewTudo>
+      <TouchableOpacityForgotPasspoword
+        onPress={() => navigation.push("Forgot Password")}
+      >
+        <TextForgot>Forgot your passpoword?</TextForgot>
+      </TouchableOpacityForgotPasspoword>
+
+      <TouchableOpacitySignUp onPress={() => navigation.push("Sign up")}>
+        <TextSignUp>SIGN UP</TextSignUp>
+      </TouchableOpacitySignUp>
+    </View>
   );
 }
