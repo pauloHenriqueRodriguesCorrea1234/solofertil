@@ -1,22 +1,21 @@
 // Estilização
-import { ScrollView, TouchableOpacity, View } from "./style";
-
+import { View } from "./style";
+import { TouchableOpacity, ScrollView } from "react-native";
 // Dados
-import producer  from "../../../data/producer.json";
+import { producer } from "../../../data/producer.json";
 // Components
 import Producers from "../Producers";
 // Estados
 import { useState, useEffect } from "react";
-import Header from "../../components/Header";
-export default function Home() {
+
+export default function Home() {  
   const [produce, setProduce] = useState([]);
 
   useEffect(() => {
-    setProduce(producer);
+    setProduce({producer});
   }, []);
   return (
     <View>
-      <Header />
       {produce.length > 0 && (
         <ScrollView>
           {produce.map((item) => (
