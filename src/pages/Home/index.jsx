@@ -1,30 +1,37 @@
 // Estilização
-import { View } from "./style";
-import { TouchableOpacity, ScrollView } from "react-native";
+import { View, ScrollView, TouchableOpacity } from "./style";
 // Dados
-import { producer } from "../../../data/producer.json";
+import { producers } from "../../../data/producer.json";
 // Components
 import Producers from "../Producers";
 // Estados
 import { useState, useEffect } from "react";
+// Componentes
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
-export default function Home() {  
-  const [produce, setProduce] = useState([]);
+export default function Home({ navigation }) {
+  const [producer, setProduce] = useState([]);
 
   useEffect(() => {
-    setProduce({producer});
+    setProduce(producers);
   }, []);
   return (
     <View>
-      {produce.length > 0 && (
+      <Header />
+      {producer.length > 0 && (
         <ScrollView>
-          {produce.map((item) => (
-            <TouchableOpacity key={item.id}>
+          {producer.map((item) => (
+            <TouchableOpacity
+              key={item.id}
+              onPress={() => navigation.push("CardFrutas", { producers: item })}
+            >
               <Producers nameProducers={item.nameProducers} img={item.img} />
             </TouchableOpacity>
           ))}
         </ScrollView>
       )}
+      <Footer />
     </View>
   );
 }

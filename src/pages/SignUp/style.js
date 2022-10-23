@@ -1,31 +1,36 @@
 import styled from "styled-components/native";
 
-export const ViewTudo = styled.View`
-  background-color: #022508;
-  flex: 1;
-  padding-top: 8%;
-`;
-
 export const View = styled.View`
   flex: 1;
-`;
-export const TextInput = styled.TextInput`
-  font-weight: 2;
+  padding-top: 8%;
   background-color: #022508;
-  border-bottom-width: 1px;
-  border-bottom-color: #FFF;
+`;
+
+export const TextInput = styled.TextInput`
   height: 40px;
   margin: 20px;
   padding: 10px;
+  font-weight: 2;
+  color: #fff;
+  background-color: #022508;
+  border-bottom-width: 1px;
+  border-bottom-color: #fff;
+
 `;
 
-export const TouchableOpacity = styled.TouchableOpacity `
+export const TouchableOpacitySignUp = styled.TouchableOpacity`
   align-items: center;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-bottom: 0%;
-  margin-top: 5%;
-  background-color: #fff;
+  margin: 5% 23%;
+  padding: 15px 0px;
   border-radius: 30px;
-  padding: 10px;
-`
+  background-color: #fff;
+`;
+export const Text = styled.Text``;
+
+export const TouchableOpacityLogin = styled.TouchableOpacity`
+  align-items: center;
+  margin: 10% 23%;
+`;
+export const TextLogin = styled.Text`
+  color: #fff;
+`;

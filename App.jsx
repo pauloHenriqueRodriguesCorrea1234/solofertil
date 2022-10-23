@@ -8,10 +8,11 @@ import { ViewApp } from "./AppStyle";
 
 // Componets
 import Login from "./src/pages/Login";
-import Producers from "./src/pages/Producers";
+import CardFrutas from "./src/pages/CardFrutas";
 import SignUp from "./src/pages/SignUp";
 import ForgotPassword from "./src/pages/FotgotPassword";
 import Home from "./src/pages/Home";
+import Producers from "./src/pages/Producers";
 
 import { StatusBar } from "react-native";
 
@@ -59,6 +60,10 @@ export default function App() {
               headerShown: false,
             }}
           />
+
+          <Stack.Screen 
+          name="CardFrutas" 
+          component={CardFrutas} />
         </Stack.Navigator>
       </NavigationContainer>
     </ViewApp>

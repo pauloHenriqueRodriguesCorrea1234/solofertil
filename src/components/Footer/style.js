@@ -1,7 +1,7 @@
 import styled from "styled-components/native";
 
 export const View = styled.View`
-  background-color: #002e00;
+  background-color: #022508;
   flex-direction: row;
   justify-content: center;
 `;

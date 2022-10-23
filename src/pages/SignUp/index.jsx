@@ -1,10 +1,12 @@
-import { ViewTudo, TextInput, TouchableOpacity  } from "./style";
+// Elemetos Estilizados
+import { View, TextInput, TouchableOpacitySignUp, TouchableOpacityLogin, Text, TextLogin } from "./style";
 
-import { Text, } from "react-native";
+// Componentes
 import Header from "../../components/Header";
+
 export default function SignUp({ navigation }) {
   return (
-    <ViewTudo>
+    <View>
       <Header />
       <TextInput
         placeholderTextColor="#FFF"
@@ -25,13 +27,13 @@ export default function SignUp({ navigation }) {
         placeholder="Confirme sua senha"
       ></TextInput>
 
-      <TouchableOpacity onPress={() => navigation.push("Home")}>
+      <TouchableOpacitySignUp onPress={() => navigation.push("Home")}>
         <Text>SIGN UP</Text>
-      </TouchableOpacity>
+      </TouchableOpacitySignUp>
 
-      <TouchableOpacity onPress={() => navigation.push("Login")}>
-        <Text>LOGIN</Text>
-      </TouchableOpacity>
-    </ViewTudo>
+      <TouchableOpacityLogin onPress={() => navigation.push("Login")}>
+        <TextLogin>LOGIN</TextLogin>
+      </TouchableOpacityLogin>
+    </View>
   );
 }

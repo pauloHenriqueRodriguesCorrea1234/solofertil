@@ -2,11 +2,23 @@
     "producers": [
         {
             "id": 1,
-            "nameProducers":"dvuedvwuvdwu"
+            "nameProducers":"Produtor 1"
         },
         {
             "id": 2,
-            "nameProducers":"oeoemoemdcmo"
+            "nameProducers":"Produtor 2"
+        },
+        {
+            "id": 3,
+            "nameProducers": "Produtor 3"
+        },
+        {
+            "id": 4,
+            "nameProducers": "Produtor 4"
+        },
+        {
+            "id": 5,
+            "nameProducers": "Produtor 5"
         }
     ]
 }
