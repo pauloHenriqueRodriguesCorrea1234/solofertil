@@ -7,7 +7,7 @@ import {
   TextTitle,
 } from "./style";
 import Header from "../../components/Header";
-export default function ForgotPassword({ navigation }) {
+export default function ForgotPassword ({ navigation }) {
   return (
     <View>
       <Header />
