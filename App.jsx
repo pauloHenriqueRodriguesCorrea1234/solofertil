@@ -10,7 +10,7 @@ import { ViewApp } from "./AppStyle";
 import Login from "./src/pages/Login";
 import CardFrutas from "./src/pages/CardFrutas";
 import SignUp from "./src/pages/SignUp";
-import ForgotPassword from "./src/pages/FotgotPassword";
+import ForgotPassword from "./src/pages/FotgotPassword01";
 import Home from "./src/pages/Home";
 import Producers from "./src/pages/Producers";
 
@@ -31,7 +31,6 @@ export default function App() {
               headerShown: false,
             }}
           />
-
           <Stack.Screen
             name="Sign up"
             component={SignUp}
@@ -41,7 +40,6 @@ export default function App() {
               headerShown: false,
             }}
           />
-
           <Stack.Screen
             name="Forgot Password"
             component={ForgotPassword}
@@ -60,10 +58,7 @@ export default function App() {
               headerShown: false,
             }}
           />
-
-          <Stack.Screen 
-          name="CardFrutas" 
-          component={CardFrutas} />
+          <Stack.Screen name="CardFrutas" component={CardFrutas} />
         </Stack.Navigator>
       </NavigationContainer>
     </ViewApp>

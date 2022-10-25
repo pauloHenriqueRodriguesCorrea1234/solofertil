@@ -1,4 +1,4 @@
-import {View, Text, Image } from "./style";
+import { View, Text, Image } from "./style";
 
 export default function Producers({ img, nameProducers }) {
   return (

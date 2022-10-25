@@ -1,5 +1,12 @@
 // Elemetos Estilizados
-import { View, TextInput, TouchableOpacitySignUp, TouchableOpacityLogin, Text, TextLogin } from "./style";
+import {
+  View,
+  TextInput,
+  TouchableOpacitySignUp,
+  TouchableOpacityLogin,
+  Text,
+  TextLogin,
+} from "./style";
 
 // Componentes
 import Header from "../../components/Header";

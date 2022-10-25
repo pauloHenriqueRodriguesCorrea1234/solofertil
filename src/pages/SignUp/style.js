@@ -15,7 +15,6 @@ export const TextInput = styled.TextInput`
   background-color: #022508;
   border-bottom-width: 1px;
   border-bottom-color: #fff;
-
 `;
 
 export const TouchableOpacitySignUp = styled.TouchableOpacity`

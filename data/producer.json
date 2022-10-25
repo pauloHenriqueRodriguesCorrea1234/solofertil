@@ -2,23 +2,30 @@
     "producers": [
         {
             "id": 1,
-            "nameProducers":"Produtor 1"
+            "name": "Produtor 1"
         },
         {
             "id": 2,
-            "nameProducers":"Produtor 2"
+            "name": "Produtor 2"
         },
         {
             "id": 3,
-            "nameProducers": "Produtor 3"
+            "name": "Produtor 3"
         },
         {
             "id": 4,
-            "nameProducers": "Produtor 4"
+            "name": "Produtor 4"
         },
         {
             "id": 5,
-            "nameProducers": "Produtor 5"
+            "name": "Produtor 5",
+
+            "product": [
+                {
+                    "idProduct": 1,
+                    "nameProduct": "Product 1"
+                }
+            ]
         }
     ]
 }
