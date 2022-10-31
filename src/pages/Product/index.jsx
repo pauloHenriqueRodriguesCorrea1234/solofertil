@@ -11,7 +11,7 @@ export default function Product({ route, navigation }) {
   useEffect(() => {
     setProduct(producers.product);
   }, [product]);
-
+  
   return (
     <View>
       {product.length > 0 && (

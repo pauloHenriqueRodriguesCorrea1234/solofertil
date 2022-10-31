@@ -61,6 +61,9 @@ export default function Route() {
           <Stack.Screen
             name="Details"
             component={Details}
+            // options={({ route }) => ({
+            //   title: route.params.producers.name
+            // })}
           />
         </Stack.Navigator>
       </NavigationContainer>
