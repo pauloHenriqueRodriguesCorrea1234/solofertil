@@ -12,6 +12,7 @@ import SignUp from "../SignUp";
 import ForgotPassword from "../FotgotPassword01";
 import Home from "../Home";
 import Product from "../Product";
+import Details from "../Details";
 
 export default function Route() {
   return (
@@ -56,6 +57,11 @@ export default function Route() {
           />
 
           <Stack.Screen name="Product" component={Product} />
+
+          <Stack.Screen
+            name="Details"
+            component={Details}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </View>

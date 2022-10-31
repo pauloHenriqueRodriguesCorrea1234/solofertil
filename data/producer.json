@@ -5,43 +5,43 @@
             "name": "Produtor 1",
             "product": [
                 {
-                    "idProduct": 1,
-                    "nameProduct": "Banana",
+                    "id": 1,
+                    "name": "Banana",
                     "url": ""
                 },
                 {
-                    "idProduct": 2,
-                    "nameProduct": "Maça",
+                    "id": 2,
+                    "name": "Maça",
                     "url": ""
                 },
                 {
-                    "idProduct": 3,
-                    "nameProduct": "Maça",
+                    "id": 3,
+                    "name": "Maça",
                     "url": ""
                 },
                 {
-                    "idProduct": 4,
-                    "nameProduct": "Maça",
+                    "id": 4,
+                    "name": "Maça",
                     "url": ""
                 },
                 {
-                    "idProduct": 5,
-                    "nameProduct": "Maça",
+                    "id": 5,
+                    "name": "Maça",
                     "url": ""
                 },
                 {
-                    "idProduct": 6,
-                    "nameProduct": "Maça",
+                    "id": 6,
+                    "name": "Maça",
                     "url": ""
                 },
                 {
-                    "idProduct": 7,
-                    "nameProduct": "Maça",
+                    "id": 7,
+                    "name": "Maça",
                     "url": ""
                 },
                 {
-                    "idProduct": 8,
-                    "nameProduct": "Maça",
+                    "id": 8,
+                    "name": "Maça",
                     "url": ""
                 }
             ]
@@ -51,42 +51,42 @@
             "name": "Produtor 2",
             "product": [
                 {
-                    "idProduct": 1,
-                    "nameProduct": "Abobrinha"
+                    "id": 1,
+                    "name": "Abobrinha"
                 },
                 {
-                    "idProduct": 2,
-                    "nameProduct": "Maça",
+                    "id": 2,
+                    "name": "Maça",
                     "url": ""
                 },
                 {
-                    "idProduct": 3,
-                    "nameProduct": "Maça",
+                    "id": 3,
+                    "name": "Almeirão",
                     "url": ""
                 },
                 {
-                    "idProduct": 4,
-                    "nameProduct": "Maça",
+                    "id": 4,
+                    "name": "Maça",
                     "url": ""
                 },
                 {
-                    "idProduct": 5,
-                    "nameProduct": "Maça",
+                    "id": 5,
+                    "name": "Maça",
                     "url": ""
                 },
                 {
-                    "idProduct": 6,
-                    "nameProduct": "Maça",
+                    "id": 6,
+                    "name": "Maça",
                     "url": ""
                 },
                 {
-                    "idProduct": 7,
-                    "nameProduct": "Maça",
+                    "id": 7,
+                    "name": "Maça",
                     "url": ""
                 },
                 {
-                    "idProduct": 8,
-                    "nameProduct": "Maça",
+                    "id": 8,
+                    "name": "Maça",
                     "url": ""
                 }
             ]
@@ -96,43 +96,8 @@
             "name": "Produtor 3",
             "product": [
                 {
-                    "idProduct": 1,
-                    "nameProduct": "Product 1"
-                },
-                {
-                    "idProduct": 2,
-                    "nameProduct": "Maça",
-                    "url": ""
-                },
-                {
-                    "idProduct": 3,
-                    "nameProduct": "Maça",
-                    "url": ""
-                },
-                {
-                    "idProduct": 4,
-                    "nameProduct": "Maça",
-                    "url": ""
-                },
-                {
-                    "idProduct": 5,
-                    "nameProduct": "Maça",
-                    "url": ""
-                },
-                {
-                    "idProduct": 6,
-                    "nameProduct": "Maça",
-                    "url": ""
-                },
-                {
-                    "idProduct": 7,
-                    "nameProduct": "Maça",
-                    "url": ""
-                },
-                {
-                    "idProduct": 8,
-                    "nameProduct": "Maça",
-                    "url": ""
+                    "id": 1,
+                    "name": "Product 1"
                 }
             ]
         }
