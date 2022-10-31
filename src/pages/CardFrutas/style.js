@@ -10,8 +10,8 @@ export const View = styled.View`
 `;
 
 export const Image = styled.Image`
-  height: 140px;
-  width: 140px;
+  height: 120px;
+  width: 120px;
 `;
 
 export const Text = styled.Text`

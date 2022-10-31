@@ -2,28 +2,137 @@
     "producers": [
         {
             "id": 1,
-            "name": "Produtor 1"
+            "name": "Produtor 1",
+            "product": [
+                {
+                    "idProduct": 1,
+                    "nameProduct": "Banana",
+                    "url": ""
+                },
+                {
+                    "idProduct": 2,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 3,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 4,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 5,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 6,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 7,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 8,
+                    "nameProduct": "Maça",
+                    "url": ""
+                }
+            ]
         },
         {
             "id": 2,
-            "name": "Produtor 2"
+            "name": "Produtor 2",
+            "product": [
+                {
+                    "idProduct": 1,
+                    "nameProduct": "Abobrinha"
+                },
+                {
+                    "idProduct": 2,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 3,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 4,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 5,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 6,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 7,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 8,
+                    "nameProduct": "Maça",
+                    "url": ""
+                }
+            ]
         },
         {
             "id": 3,
-            "name": "Produtor 3"
-        },
-        {
-            "id": 4,
-            "name": "Produtor 4"
-        },
-        {
-            "id": 5,
-            "name": "Produtor 5",
-
+            "name": "Produtor 3",
             "product": [
                 {
                     "idProduct": 1,
                     "nameProduct": "Product 1"
+                },
+                {
+                    "idProduct": 2,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 3,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 4,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 5,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 6,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 7,
+                    "nameProduct": "Maça",
+                    "url": ""
+                },
+                {
+                    "idProduct": 8,
+                    "nameProduct": "Maça",
+                    "url": ""
                 }
             ]
         }
