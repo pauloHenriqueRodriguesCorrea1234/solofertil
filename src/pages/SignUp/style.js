@@ -3,7 +3,7 @@ import styled from "styled-components/native";
 export const View = styled.View`
   flex: 1;
   padding-top: 8%;
-  background-color: #022508;
+  background-color: #009000;
 `;
 
 export const TextInput = styled.TextInput`
@@ -12,7 +12,7 @@ export const TextInput = styled.TextInput`
   padding: 10px;
   font-weight: 2;
   color: #fff;
-  background-color: #022508;
+  background-color: #009000;
   border-bottom-width: 1px;
   border-bottom-color: #fff;
 `;

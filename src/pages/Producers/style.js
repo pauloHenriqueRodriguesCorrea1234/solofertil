@@ -5,7 +5,7 @@ export const View = styled.View`
   flex-direction: row;
   margin: 2% 3%;
   justify-content: space-between;
-  background-color: #d3d3d3;
+  background-color: #DCDCDC;
   border-radius: 10px;
 `;
 

@@ -2,7 +2,7 @@ import styled from "styled-components/native";
 
 export const View = styled.View`
   width: 100%;
-  background-color: #022508;
+  background-color: #009000;
 `;
 
 export const Text = styled.Text`
@@ -18,7 +18,7 @@ export const Image = styled.Image`
 `;
 
 export const TouchableOpacity = styled.TouchableOpacity`
-  background-color: #022508;
+  background-color: #009000;
   flex-direction: row;
   align-items: center;
   justify-content: center;

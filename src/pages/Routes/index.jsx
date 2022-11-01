@@ -15,6 +15,7 @@ import Product from "../Product";
 import Details from "../Details";
 
 export default function Route() {
+  
   return (
     <View>
       <NavigationContainer>
@@ -56,14 +57,15 @@ export default function Route() {
             }}
           />
 
-          <Stack.Screen name="Product" component={Product} />
-
+          <Stack.Screen name="Product" component={Product}
+            options={{
+              title: "Undefinit",
+              headerTitleAlign: 'center'
+            }}
+          />
           <Stack.Screen
             name="Details"
             component={Details}
-            // options={({ route }) => ({
-            //   title: route.params.producers.name
-            // })}
           />
         </Stack.Navigator>
       </NavigationContainer>

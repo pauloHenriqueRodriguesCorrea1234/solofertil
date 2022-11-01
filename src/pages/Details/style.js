@@ -2,12 +2,12 @@ import styled from "styled-components/native";
 
 export const View = styled.View`
   flex: 1;
-  background-color: #6f6f6f ;
+  background-color: #fff ;
 `;
 
 export const ScrollView = styled.ScrollView`
   margin: 20px;
-  background-color: #002e00;
+  background-color: #009000;
   border-radius: 10px;
 `;
 

@@ -5,7 +5,7 @@ export const View = styled.View`
   padding-top: 5%;
   width: 100%;
   height: 140px;
-  background-color: #022508;
+  background-color: #009000;
   align-items: center;
   justify-content: center;
 `;
