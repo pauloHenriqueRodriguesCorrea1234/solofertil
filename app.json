@@ -4,10 +4,10 @@
     "slug": "SoloFertil",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/img/logoVerdeClaro.jpg",
+    "icon": "src/assets/img/logoVerdeClaro.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./src/assets/img/logoVerdeClaro.jpg",
+      "image": "src/assets/img/logoVerdeClaro.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#008001"
     },
@@ -22,12 +22,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./src/assets/img/logoVerdeClaro.jpg",
+        "foregroundImage": "src/assets/img/logoVerdeClaro.jpg",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./src/assets/img/logo.jpg"
+      "favicon": "src/assets/img/logoVerdeClaro.jpg"
     }
   }
 }
